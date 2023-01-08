@@ -1,0 +1,27 @@
+.field {
+  border: 5px solid black;
+  background-color: antiquewhite;
+}
+.ball{
+  background: linear-gradient(red, white, red);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  left: 1020px;
+  bottom: 313px;
+  transition: transform 0.75s ease-out 1.5s;
+  
+  
+}
+.field:hover .ball{
+  transform: translate(2000px, -450px);
+}
+.bat{
+  transition: transform 1.5s ease-in
+}
+.field:hover .bat {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  
+}
